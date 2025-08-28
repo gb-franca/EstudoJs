@@ -1,0 +1,96 @@
+/* Configurações Globais e da Fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o body ocupe a altura toda */
+    padding: 2rem 0; /* Espaçamento para telas pequenas */
+}
+
+/* Container Principal */
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Lista de Regras */
+.regras {
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.regras li {
+    margin-bottom: 5px;
+}
+
+/* Formulário */
+.formulario label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 5px; /* Espaço para a mensagem de erro */
+}
+
+.formulario input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Mensagem de erro (invisível por padrão) */
+.error-text {
+    font-size: 0.8rem;
+    color: #d93025;
+    min-height: 1.2rem; /* Garante que o layout não "pule" ao exibir o erro */
+    margin-bottom: 10px;
+}
+
+/* Input com erro (você adicionará essa classe com JS) */
+.input-error {
+  border-color: #d93025 !important; /* !important para sobrepor o :focus */
+}
+
+
+/* Botão */
+.formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
