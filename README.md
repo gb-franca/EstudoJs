@@ -30,5 +30,5 @@ Sinta-se à vontade para explorar as pastas e acompanhar minha evolução!
 
 Adoraria receber feedbacks, dicas e sugestões que possam me ajudar a evoluir.
 
-- 🔗 **LinkedIn:** `[Seu Link do LinkedIn]`
-- ✉️ **Email:** `[Seu Email de Contato]`
+- 🔗 **LinkedIn:** `www.linkedin.com/in/gabriel-frança-628074228`
+- ✉️ **Email:** `gabrielfranca08@gmail.com`
