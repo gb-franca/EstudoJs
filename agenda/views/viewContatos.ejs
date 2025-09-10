@@ -1,0 +1,29 @@
+<%- include("layout", { body: `
+<h1>Lista de Contatos</h1>
+<a href="/contatos/novo" class="btn btn-success mb-3">Novo Contato</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Email</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        ${contatos.map(c => `
+        <tr>
+            <td>${c.nome}</td>
+            <td>${c.telefone}</td>
+            <td>${c.email || "-"}</td>
+            <td>
+                <a href="/contatos/${c._id}/editar" class="btn btn-warning btn-sm">Editar</a>
+                <form action="/contatos/${c._id}/deletar" method="POST" style="display:inline;">
+                    <button class="btn btn-danger btn-sm">Excluir</button>
+                </form>
+            </td>
+        </tr>
+        `).join("")}
+    </tbody>
+</table>
+`}) %>

@@ -1,0 +1,15 @@
+<%- include("layout", { body: `
+<h1>Login</h1>
+<form action="/login" method="POST">
+    <div class="mb-3">
+        <label>Email</label>
+        <input type="email" name="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Senha</label>
+        <input type="password" name="senha" class="form-control" required>
+    </div>
+    <button class="btn btn-primary">Entrar</button>
+    <p class="mt-3">Não tem conta? <a href="/registro">Registrar-se</a></p>
+</form>
+`}) %>
