@@ -6,7 +6,6 @@ O principal objetivo é criar um registro prático do meu progresso, solidificar
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Status-Em_Andamento-blue?style=for-the-badge" alt="Status: Em Andamento">
   <img src="https://img.shields.io/badge/Foco-Aprendizado_Contínuo-green?style=for-the-badge" alt="Foco: Aprendizado Contínuo">
 </p>
 
